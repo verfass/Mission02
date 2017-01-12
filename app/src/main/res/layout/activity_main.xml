@@ -19,15 +19,17 @@
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:inputType="textMultiLine"
-            android:text="가나다라마바사아"
+            android:text=""
+            android:hint="문자 입력"
             android:ems="10"
             android:gravity="top"
             android:layout_height="400dp"
             android:textSize="40dp"
+            android:padding="5dp"
             android:maxLength="80"
-            android:maxLines="10"
+            android:background="@drawable/xml_border"
             android:overScrollMode="ifContentScrolls"
-            android:shadowColor="@android:color/darker_gray" />
+            />
 
         <TextView
             android:id="@+id/textView"
